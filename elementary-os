@@ -9,6 +9,8 @@ sudo apt install -y pantheon-tweaks -y
 
 # multimedia codecs
 sudo apt install ubuntu-restricted-extras libavcodec-extra libdvd-pkg -y
+#config in first time
+sudo dpkg-reconfigure libdvd-pkg
 
 # auto install driver
 sudo ubuntu-drivers autoinstall -y
